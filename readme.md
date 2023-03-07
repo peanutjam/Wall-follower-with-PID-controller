@@ -1,0 +1,3 @@
+When the robot is initialzed, it will first find the closest wall. It will then rotate to the walll and go to the wall. When the distance between the robot and the wall is less than 1 meter. It will start following the wall parallely. There is nothing you should do. Everything runs automatically.
+
+The basic logic for the robot is that it will first scan for the any min in the ranges. If it finds one, it will rotate to that point. Then it will go straight to the wall. When it reaches the wall close enought. It will be moving parallely using PID controller. The PID controller automaticaly does the work for turning. 
